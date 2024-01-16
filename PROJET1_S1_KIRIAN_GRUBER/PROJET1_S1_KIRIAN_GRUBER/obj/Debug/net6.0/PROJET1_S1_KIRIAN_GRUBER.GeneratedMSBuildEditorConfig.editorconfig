@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PROJET1_S1_KIRIAN_GRUBER
+build_property.ProjectDir = O:\APPLICATIONS\Echanges_Eleves\ES\SLO1\Gruber_Kirian\PROG\Epreuve\PROJET1_S1\PROJET1_S1_KIRIAN_GRUBER\PROJET1_S1_KIRIAN_GRUBER\
