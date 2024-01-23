@@ -2,6 +2,7 @@
 
 #include "mainProjet1_s1.c"
 #include "MesFonctions.h"
+#include <stdio.h>
 
 void infoVariables(float valUser)
 {
@@ -27,9 +28,9 @@ void infoVariables(float valUser)
 	{
 		printf("La valeur est entière \n");
 		
-		/*On effectue ici une simple division par 2. Si le résultat est 0, cela veut dire que notre valeur d'entrée est paire.
-		Si le résultat ne vaut pas 0, cela veut dire que notre valeur est impaire*/
-		if ((valUser / 2.0) == 0)
+		/* On effectue ici un simple modulo par 2. Si le résultat est 0, cela veut dire que notre valeur d'entrée est paire.
+		Si le résultat ne vaut pas 0, cela veut dire que notre valeur est impaire */
+		if (valUser % 2 == 0)
 		{
 			printf("La valeur est paire \n");
 		}
@@ -38,13 +39,13 @@ void infoVariables(float valUser)
 			printf("La valeur est impaire \n");
 		}
 
-		if (valUser >= -128 || valUser <= 255)
+		if (valUser >= -128 && valUser <= 255)
 		{
 			printf("Type à utiliser : char ou int8_t \n");
 		}
 		else
 		{
-			printf("Type à utiliser : short ou int16_t");
+			printf("Type à utiliser : short ou int16_t \n");
 		}
 	}
 	else
