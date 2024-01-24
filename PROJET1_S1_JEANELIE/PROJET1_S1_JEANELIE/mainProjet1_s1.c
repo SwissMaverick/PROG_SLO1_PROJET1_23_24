@@ -32,10 +32,10 @@ const unsigned short ANNEE_TEST = 2024;
 
 
 //-- programme principal --// 
-void main()
+void main(float valUser)
 {
 	//-- déclaration de variables locales --//
-	float valUtilisateur; 
+	float valUser;
 
 	//-- message utilisateur --// 
 	printf("-- TEST n%02d - annee : %d - Nom Candidat : %s --\n", VERSION_PROJET, ANNEE_TEST, ptNOM_CANDIDAT); 
@@ -48,14 +48,14 @@ void main()
 		printf("\nEntrer une valeur entre -10000 et 10000 : "); 
 
 		//-- récuperation valeur utilisateur --// 
-		scanf("%f", &valUtilisateur); 
+		scanf("%f", & valUser);
 
 		//-- nettoyer le bufferclavier --// 
 		while ((getchar() != '\n') && (getchar() != EOF));
 
-	} while ((valUtilisateur < LIMITE_MIN) || (valUtilisateur > LIMITE_MAX)); 
+	} while ((valUser < LIMITE_MIN) || (valUser > LIMITE_MAX));
 
 	//-- appel de fonction  : infoVariable 
-	valUtilisateur = infoVariables();
+	valUser = infoVariables();
 	
 }
