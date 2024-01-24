@@ -3,10 +3,7 @@
 #ifndef MesFonctions_h
 #define MesFonctions_h
 
-void infoVariables(float valUser)
-{
-	int valEntier;
-	float valUser;
-}
+/* Prototype de la fonction */
+void infoVariables(int valEntier, float valUser);
 
 #endif

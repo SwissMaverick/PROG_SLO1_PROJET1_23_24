@@ -14,7 +14,7 @@
 //-- directive préprocesseur pour supprimer certains warining --//
 #pragma warning(disable : 4996)		//-- warning concernant les scanf
 
-//--- librairie standart ---//
+//--- librairie standard ---//
 #include <stdio.h>                  // entrée - sortie
 
 //--- librairie perso ---//
@@ -35,7 +35,6 @@ const unsigned short ANNEE_TEST = 2024;
 void main(float valUser)
 {
 	//-- déclaration de variables locales --//
-	float valUser;
 
 	//-- message utilisateur --// 
 	printf("-- TEST n%02d - annee : %d - Nom Candidat : %s --\n", VERSION_PROJET, ANNEE_TEST, ptNOM_CANDIDAT); 

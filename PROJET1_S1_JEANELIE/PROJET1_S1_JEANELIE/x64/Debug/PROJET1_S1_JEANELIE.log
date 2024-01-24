@@ -1,0 +1,13 @@
+﻿  mainProjet1_s1.c
+C:\JJE_Programmation\Propre\Mine\PROG_SLO1_PROJET1_23_24\PROJET1_S1_JEANELIE\PROJET1_S1_JEANELIE\mainProjet1_s1.c(58,12): warning C4013: 'infoVariables' non défini(e) ; extern retournant int pris par défaut
+C:\JJE_Programmation\Propre\Mine\PROG_SLO1_PROJET1_23_24\PROJET1_S1_JEANELIE\PROJET1_S1_JEANELIE\mainProjet1_s1.c(58,12): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+  MesFonctions.c
+C:\JJE_Programmation\Propre\Mine\PROG_SLO1_PROJET1_23_24\PROJET1_S1_JEANELIE\PROJET1_S1_JEANELIE\mainProjet1_s1.c(58,12): warning C4013: 'infoVariables' non défini(e) ; extern retournant int pris par défaut
+C:\JJE_Programmation\Propre\Mine\PROG_SLO1_PROJET1_23_24\PROJET1_S1_JEANELIE\PROJET1_S1_JEANELIE\mainProjet1_s1.c(58,12): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\JJE_Programmation\Propre\Mine\PROG_SLO1_PROJET1_23_24\PROJET1_S1_JEANELIE\PROJET1_S1_JEANELIE\MesFonctions.h(6,6): error C2371: 'infoVariables' : redéfinition ; types de base différents
+C:\JJE_Programmation\Propre\Mine\PROG_SLO1_PROJET1_23_24\PROJET1_S1_JEANELIE\PROJET1_S1_JEANELIE\MesFonctions.h(9,15): error C2082: redéfinition du paramètre formel 'valUser'
+C:\JJE_Programmation\Propre\Mine\PROG_SLO1_PROJET1_23_24\PROJET1_S1_JEANELIE\PROJET1_S1_JEANELIE\MesFonctions.c(10,6): error C2371: 'infoVariables' : redéfinition ; types de base différents
+C:\JJE_Programmation\Propre\Mine\PROG_SLO1_PROJET1_23_24\PROJET1_S1_JEANELIE\PROJET1_S1_JEANELIE\MesFonctions.c(14,15): error C2082: redéfinition du paramètre formel 'valUser'
+C:\JJE_Programmation\Propre\Mine\PROG_SLO1_PROJET1_23_24\PROJET1_S1_JEANELIE\PROJET1_S1_JEANELIE\MesFonctions.c(16,14): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+C:\JJE_Programmation\Propre\Mine\PROG_SLO1_PROJET1_23_24\PROJET1_S1_JEANELIE\PROJET1_S1_JEANELIE\MesFonctions.c(36,15): error C2296: « % » : non valide, car l’opérande gauche a le type « float »
+  Génération de code en cours...

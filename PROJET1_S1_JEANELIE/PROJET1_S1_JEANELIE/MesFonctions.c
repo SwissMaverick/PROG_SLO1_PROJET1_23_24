@@ -1,7 +1,10 @@
 /* Jérémie Jean-Elie le, 11.01.2024 */
 
+
 #include "mainProjet1_s1.c"
 #include "MesFonctions.h"
+
+/* Librairies standards */
 #include <stdio.h>
 
 void infoVariables(float valUser)
